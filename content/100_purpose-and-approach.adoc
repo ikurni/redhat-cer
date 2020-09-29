@@ -25,4 +25,4 @@ seeks to <describe what the initiative is meant to achieve> by <describe how
 this engagement is going to support the initiative>.
 ////
 
-Red Hat Consulting was engaged by {cust} to assist with {description} which seeks to (#TODO# describe what the initiative is meant to achieve) by (#TODO# describe how this engagement is going to support the initiative).
+Red Hat Consulting was engaged by SBC to assist with Deployment of Red Hat Satellite which seeks to (#TODO# describe what the initiative is meant to achieve) by (#TODO# describe how this engagement is going to support the initiative).

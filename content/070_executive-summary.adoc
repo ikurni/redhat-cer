@@ -19,4 +19,4 @@ Sample
 Red Hat Consulting was engaged by Acme Inc. to assist with the Application Standardization 2.0 Project.  Three Ansible Tower clusters were established to serve Dev, Test and Prod environments.  Red Hat Consulting collaborated on the creation of 135 compliance and remediation playbooks, and over the course of the engagement scanned the entire Dev environment automatically bringing nearly 200 non-compliant services into compliance and flagging an additional 50 for manual remediation.  Acme's ServiceNow environment now has up-to-date compliance status on every application identified in the Dev environment.  During the course of the engagement three separate demonstrations were provided to Acme executive management as well as several knowledge transfer sessions crafted to ensure that Acme is enabled to begin scanning Test and Prod environments on their own after the necessary approvals.
 
 ////
-Red Hat Consulting was engaged by {customer} to assist with (#TODO# high level description of project)
+Red Hat Consulting was engaged by SBC (Security Bank) to assist with Deployment of Red Hat Satellite

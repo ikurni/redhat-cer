@@ -16,16 +16,24 @@ decision making or implementation.
 |E-mail address
 
 // Name
-| #TODO#
+| John Paul Mares 
 // Function
-| #TODO#
+| Project Manager
 // E-mail address
-| #TODO#
+| jpmares@securitybank.com.ph
 
 // Name
-| #TODO#
+| Tristan Aurelio
 // Function
-| #TODO#
+| System Administrator
 // E-mail address
-| #TODO#
+| TAurelio@securitybank.com.ph
+
+// Name
+| Rex Adam B. Sy
+// Function
+| System Administrator
+// E-mail address
+| RBSy@securitybank.com.ph
+
 |===
