@@ -1,0 +1,172 @@
+////
+Purpose
+-------
+In the "Base" directory, this section is a placeholder which is to be
+overwritten by architecture specific to the product or products being
+delivered.
+
+If "TODO" appears in your document after the init script has been run, then your product directory is missing a corresponding "architecture.adoc" which should be implemented to provide a basic architecture framework for that product.
+////
+
+#TODO#: The Architecture section contains headings that pertain to the solution as a whole. If you added specific technologies to the CER they will be appended at the end of this section for reference. Feel free to remove the top level headings that are already covered in the additional sections and are not generically relevant.
+
+= High level Architecture diagram
+#TODO#
+
+= Environment Setup
+Steps to prepare or create the environment for the proposed architecture
+
+#TODO#
+
+= Continuous Integration/Continuous Delivery
+#TODO#
+
+= Quality of Service Strategy
+The following considerations were made to ensure enterprise ready uptime
+
+== High Availability
+#TODO#
+
+== Failover
+#TODO#
+
+== Disaster Recovery
+#TODO#
+
+= Service Level Agreements and Volumetrics
+#TODO#
+
+= Logging and Monitoring solution
+#TODO#
+
+= Security considerations
+#TODO#
+
+= Architectural Policies, Principles, and Decisions
+
+== Policies
+Architectural policies are statements of _how things will be done_, typically legally binding and imposed from outside the organization. The policies documented here were provided throughout the course of the engagement from various teams and key stakeholders and affected the documented Architectural Decisions.
+//EX: must conform to NIST 800-53
+
+//copy this template for each principle
+.#TODO Policy Short Name#
+[cols="1h,3a"]
+|===
+
+| Name
+| #TODO#
+// A short name or title to identify the policy.
+
+| Statement
+| #TODO#
+// What the policy is
+
+| Source
+| #TODO#
+// The external group, law, or internal team name or key stake holder hame who provided the applicable policy.
+
+| Implication
+| #TODO#
+// The consequences of the policy both on the enterprise which is always positive and on the program sometimes implying additional cost
+//HINT: list the principles or decisions affected by this policy
+|===
+
+== Principles
+Architectural principles are rules or guidelines at the organizational or team level used to make architectural decisions.
+The principles documented here were provided throughout the course of the engagement from various teams and key stakeholders and affected the documented Architectural Decisions.
+//EX: prefer to use Apache HTTPD for static web content
+
+//copy this template for each principle
+.#TODO Principle Short Name#
+[cols="1h,3a"]
+|===
+
+| Name
+| #TODO#
+// A short name or title to identify the principle.
+
+| Statement
+| #TODO#
+// What the principle is
+
+| Source
+| #TODO#
+// The team name or key stake holder hame who provided the applicable principle
+
+| Motivation
+| #TODO#
+// Why the principle is the way it is; the rationale or impetus behind the enterprise wanting its systems to be architected this way
+
+| Implication
+| #TODO#
+// The consequences of the principle both on the enterprise which is always positive and on the program sometimes implying additional cost
+//HINT: list the decisions affected by this policy
+
+|===
+
+== Decisions
+//HINT: if something is more of a organizational mandate or standard, such as, "must conform to NIST 800-53", then use an Architectural Policy or Principle instead.
+Architectural decisions made throughout the course of the engagement with information on the investigated alternatives and justification for the decisions made.
+
+//copy this template for each decision
+.#TODO Decision Short Name#
+[cols="1h,3a"]
+|===
+
+| Id.
+| #TODO#
+// A unique code that unambiguously identifies the decision; for example: “AD-42.”
+
+| Subject Area
+| #TODO#
+
+| Architectural Question
+| #TODO#
+// State the to-be decision as a question
+
+| Issue or Problem
+| #TODO#
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| #TODO#
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| #TODO#
+// An enumerated list of alternatives and explanations.
+//HINT: if not alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken. This should be one of the named Alternatives; for example: “Alternative 2 is chosen.”
+
+| Justification
+| #TODO#
+// Why the decision was made
+//HINT: list the policies or principles that affected the decision.
+
+| Implications
+| #TODO#
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! #TODO#
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! #TODO#
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
