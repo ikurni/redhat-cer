@@ -25,4 +25,4 @@ seeks to <describe what the initiative is meant to achieve> by <describe how
 this engagement is going to support the initiative>.
 ////
 
-Red Hat Consulting was engaged by SBC to assist with Deployment of Red Hat Satellite which seeks to have centralized Standard Operating Environment Software, to all available Infrastructure environment including DEV/UAT, Production and DR.
+Red Hat Consulting was engaged by SBC to assist with Deployment of Red Hat Satellite which seeks to have centralized Standard Operating Environment Software, to all available Infrastructure environment including DEV/UAT, Production and DR. All RHEL Client needs to be standardized using Red Hat Satellite
