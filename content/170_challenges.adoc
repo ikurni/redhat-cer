@@ -62,10 +62,10 @@ A fix has already been implemented upstream and is expected to be part of the ne
 = #TODO_sample_challange_name_1#
 
 == Challenge
-#TODO#
+=== #TODO#
 
 == Immediate Resolution
-#TODO#
+=== #TODO#
 
 == Future Recommendation
-#TODO#
+=== #TODO#

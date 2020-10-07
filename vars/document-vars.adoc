@@ -4,14 +4,14 @@
 :toc-title: Table of Contents
 
 :subject: Consulting Engagement Report
-:description: TODO_description_of_the_engagement
+:description: Deployment Satellite 6.7
 
 :customer: Security Bank
 :cust: SBC
 
 :confidentiality: Confidential
 
-:projectmanager: TODO_name_of_engagement_project_manager
+:projectmanager: Csaba Eber
 
 // these are required for the support chapter.
 :custgss: TODO_customer_portal_account_name

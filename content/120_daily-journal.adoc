@@ -92,16 +92,109 @@ a|
 |Blockers
 
 // Date
-| MM/DD/YYYY
+| 09/14/2020
 
 // Activities
 a|
-- #TODO#
-- #TODO#
+- Deploy Satellite 6.7
 
 // Blockers
 a|
-- #TODO#
-- #TODO#
+- RHEL7 not supported for Satellite
+
+// Date
+| 09/16/2020
+
+// Activities
+a|
+- Deploy Satellite 6.7
+- Enable Repository RHEL 6,7 and 8
+- Add location HQ and DR
+- Create content view RHEL6,7 and 8
+- Add proxy in satellite
+- Create sync daily plan at 16 sep 2020 23:00 PM
+
+// Blockers
+a|
+- Installatin satellite using connected method was failed because serrver using proxy
+
+// Date
+| 09/17/2020
+
+// Activities
+a|
+- Check sync plan status, make sure all repository completed synchronize
+- Publish content view RHEL6,7 and 8
+- Create activation key RHEL7,RHEL7 and RHEL8 for client want join to satellite
+- Config custom certificate
+
+// Blockers
+a|
+- Certificate does not match for server satellite, Mr Tristan will regenerate new certificate
+
+// Date
+| 09/18/2020
+
+// Activities
+a|
+- Check certificate for satellite and still issue with certificate.
+// Blockers
+a|
+- Certificate does not match for server satellite
+
+// Date
+| 09/21/2020
+
+// Activities
+a|
+- Deploy capsule DR and join to satellite
+// Blockers
+a|
+- Need to generate new certificate for capsule DR
+
+// Date
+| 09/22/2020
+
+// Activities
+a|
+- Verify and generate cert for capsule DEV
+// Blockers
+a|
+- Capsule DEV unable connect to satellite, need to whitelist port in SBC side
+
+// Date
+| 09/23/2020
+
+// Activities
+a|
+- Checking status of Capsule DEV/UAT Environment readiness
+- Fixing issue with Candlepin after Package installation using foreman-maintain command
+// Blockers
+a|
+- Candlepin service on the satellite server shows error "certificate failed verify" after run package update from foreman-maintain command. After running the foreman-maintain command, need to run the same command to Capsule server to put Satellite and Capsule in the same package version. Resolution guide from Red Hat :https://access.redhat.com/solutions/2273561
+
+// Date
+| 09/24/2020
+
+// Activities
+a|
+- Checking status of Capsule DEV/UAT Environment readiness
+- Fixing issue with Capsule UAT RPM database corruption when capsule unable use command yum,rpm and subscriber-manager (https://access.redhat.com/solutions/6903)
+- Configure email notifications from Satellite server, in satellite status email notification already config but user dont get email, Mr.Tristan will check in internal side
+- configure openscap on external capsule DEV and DR
+// Blockers
+a|
+- 
+
+// Date
+| 09/25/2020
+
+// Activities
+a|
+- Email notification from satellite server to user can be sent successfully, user able to receive email alert from satellite.
+- Change katello-agent with remote execution (katello-host-tools). Katello agent is planned to be deprecated in the next satellite release hence we recommend to use remote execution
+// Blockers
+a|
+- Cannot run remote execution using rexuser (solved) -> need to change the effective_user to root
 
 |===

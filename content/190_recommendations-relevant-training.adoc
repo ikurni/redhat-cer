@@ -39,7 +39,7 @@ https://www.redhat.com/rhtapps/assessment
 
 include::training/rh124-red-hat-system-administration-i.adoc[leveloffset=+2]
 include::training/rh134-red-hat-system-administration-ii.adoc[leveloffset=+2]
-include::training/rh294-red-hat-linux-automation-with-ansible.adoc[leveloffset=+2]
+include::training/rh403-red-hat-satellite-6-administration.adoc[leveloffset=+2]
 
 ////
 // list generated with `ls -1 training/ | sed 's/\(.*\)/include::training\/\1[leveloffset=+2]/'`

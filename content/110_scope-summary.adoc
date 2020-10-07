@@ -74,40 +74,25 @@ This section details Red Hat's strategy to assist {cust} with meeting their goal
 .2+|1
 
 // Week
-|#TODO#
+|1
 
 // Objectives
 a|
-- #TODO#
-- #TODO#
+- Deployment Satellite 6.7
+- Deployment Capsule DR
 
 
 // Week
-|#TODO#
+|2
 
 // Objectives
 a|
-- #TODO#
-- #TODO#
+- Deployment Capsule Dev
+- Sync all repository
 
 
 // Sprint
 .2+|2
-
-// Week
-|#TODO#
-
-// Objectives
-a|
-- #TODO#
-- #TODO#
-
-// Week
-|#TODO#
-// Objectives
-a|
-- #TODO#
-- #TODO#
 
 
 |===

@@ -11,6 +11,7 @@
 :rhsat: {rh} {sat}
 :sat65: {rhsat} 6.5
 :sat66: {rhsat} 6.6
+:sat67: {rhsat} 6.7
 
 :rhv: {rh} Virtualization
 

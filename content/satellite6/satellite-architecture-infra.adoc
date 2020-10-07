@@ -8,7 +8,7 @@
 * Red Hat Satellite and Red Hat Satellite Capsule Server are installed upon a Red Hat Enterprise Linux 7 Operating System.
 * As {cust} uses Virtual Data Center subscriptions, virt-who is a requirement to provide Subscriptions to the managed virtual hosts.
 * Existing systems need to be migrated.
-* Satellite 6 currently supports {rhel} 6, 7 and 8.
+* Satellite 6 currently supports {rhel} 6 and 7.
 
 == System Requirements
 

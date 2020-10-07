@@ -19,8 +19,6 @@ REST API Example for Starting a VM on RHV
 https://access.redhat.com/documentation/en-us/red_hat_virtualization/4.3/html/rest_api_guide/documents-004_quick_start_example#start_the_virtual_machine
 ////
 
-#TODO#
-
 = Red Hat Satellite 6
 
 Below is a list of relevant guidance documentation for Satellite Server 6.

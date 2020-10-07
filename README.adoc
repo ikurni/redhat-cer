@@ -45,9 +45,6 @@ include::content/070_executive-summary.adoc[leveloffset=+2]
 === About {cust}
 include::content/080_about-the-customer.adoc[leveloffset=+3]
 
-=== Documentation Provided By {cust}
-include::content/090_customer-provided-documentation.adoc[leveloffset=+3]
-
 === Purpose And Engagement Approach
 include::content/100_purpose-and-approach.adoc[leveloffset=+3]
 
@@ -61,36 +58,20 @@ include::content/110_scope-summary.adoc[leveloffset=+3]
 include::content/120_daily-journal.adoc[leveloffset=+3]
 
 <<<
-=== Deployed Architecture
-include::content/130_architecture.adoc[leveloffset=+3]
 
 <<<
-=== Technical Implementation
-include::content/140_implementation.adoc[leveloffset=+3]
 
 <<<
-=== Validation Procedure
-include::content/150_validation.adoc[leveloffset=+3]
 
 <<<
-=== Summary of Knowledge Transfer
-include::content/160_knowledge-transfer.adoc[leveloffset=+3]
 
 <<<
-=== Challenges, Resolutions, and Recommendations
-include::content/170_challenges.adoc[leveloffset=+3]
 
 <<<
 == Recommendations
 
-=== Technical Next Steps
-include::content/180_recommendations-technical.adoc[leveloffset=+3]
-
 === Relevant Training
 include::content/190_recommendations-relevant-training.adoc[leveloffset=+3]
-
-=== Other
-include::content/200_recommendations-other.adoc[leveloffset=+3]
 
 <<<
 [appendix]
